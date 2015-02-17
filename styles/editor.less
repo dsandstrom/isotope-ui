@@ -6,12 +6,10 @@ atom-text-editor::shadow {
   .bracket-matcher .region {
     border-bottom: 1px solid @base-fg;
   }
-  .scroll-view {
-    padding-left: @modular-scale-xxs * 1rem;
-    box-sizing: border-box;
-  }
-  .gutter + .scroll-view {
-    padding-left: 0;
+
+  .current-result .region {
+    background: #FFDE00;
+    border-color: darken(#FFDE00, 12%);
   }
 
   .ui-site-1 {
